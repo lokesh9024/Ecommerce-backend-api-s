@@ -16,4 +16,5 @@ public class ItemDto {
    public  float price;
   public  String description;
    public  Byte categoryId;
+   public long password;
 }

@@ -10,13 +10,15 @@ private long id;
 private String name;
  private Float price;
 private String description;
-public Item(long id, String name, Float price, String description, Byte categoryId) {
+private long password;
+public Item(long id, String name, Float price, String description, Byte categoryId,long password) {
 	super();
 	this.id = id;
 	this.name = name;
 	this.price = price;
 	this.description = description; 
 	this.categoryId = categoryId;
+	this.password=password;
 }
 public long getId() {
 	return id;
@@ -50,6 +52,12 @@ public Byte getCategoryId() {
 }
 public void setCategoryId(Byte categoryId) {
 	this.categoryId = categoryId;
+}
+public long getPassword() {
+	return password;
+}
+public void setPassword(long password) {
+	this.password = password;
 }
 Byte categoryId;
 }
