@@ -1,11 +1,11 @@
-# 🛒 E-Commerce Backend API
+#  E-Commerce Backend API
 
 A RESTful backend service for managing products, orders, users, and payments in an e-commerce platform.  
 Built with **Java**, **Spring Boot**, and **MySQL**.
 
 ---
 
-## 🚀 Features
+##  Features
 - **User Management**: Registration, login, authentication (JWT)
 - **Product Management**: Add, update, delete, and list products
 - **Cart & Orders**: Add to cart, place orders, track order status
@@ -15,7 +15,7 @@ Built with **Java**, **Spring Boot**, and **MySQL**.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - **Language**: Java
 - **Framework**: Spring Boot
 - **Database**: MySQL
@@ -26,7 +26,7 @@ Built with **Java**, **Spring Boot**, and **MySQL**.
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
